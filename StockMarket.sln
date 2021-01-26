@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockMarket", "StockMarket\StockMarket.csproj", "{C5B78B2C-5DB2-44A5-A6D6-71FFEBF18401}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerEF", "ServerEF\ServerEF.csproj", "{AC48F80D-BA41-4583-A10F-F3CF6A906CE9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C5B78B2C-5DB2-44A5-A6D6-71FFEBF18401} = {C5B78B2C-5DB2-44A5-A6D6-71FFEBF18401}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5B78B2C-5DB2-44A5-A6D6-71FFEBF18401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5B78B2C-5DB2-44A5-A6D6-71FFEBF18401}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5B78B2C-5DB2-44A5-A6D6-71FFEBF18401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5B78B2C-5DB2-44A5-A6D6-71FFEBF18401}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC48F80D-BA41-4583-A10F-F3CF6A906CE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC48F80D-BA41-4583-A10F-F3CF6A906CE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC48F80D-BA41-4583-A10F-F3CF6A906CE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC48F80D-BA41-4583-A10F-F3CF6A906CE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A226DF8-EBDF-4790-8C4F-B5851A48BC5B}
+	EndGlobalSection
+EndGlobal
